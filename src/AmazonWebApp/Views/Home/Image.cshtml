@@ -1,0 +1,13 @@
+﻿
+
+<div class="row" style="margin-top:20px">
+    @if (ViewBag.Image == null)
+    {
+
+        <span>Unable to load image...</span>
+    }
+    else
+    {
+        <img src="@ViewBag.Image" width="800" />
+    }
+</div>
